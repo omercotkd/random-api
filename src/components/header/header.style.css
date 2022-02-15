@@ -1,0 +1,29 @@
+header {
+    padding-bottom: 1rem;
+}
+.nav-item {
+    color: #fff;
+    padding-left: 15px;
+}
+
+.links {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.links:hover {
+    color: inherit;
+    text-decoration: inherit;
+    cursor:pointer; 
+}
+
+.logout {
+    all: unset;
+    color: inherit;
+    text-decoration: inherit;
+    background-color: inherit;
+}
+
+.logout:focus {
+    outline: none;
+  }

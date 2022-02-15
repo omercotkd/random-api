@@ -1,0 +1,27 @@
+.explain-div {
+    border-radius: 25px;
+    border: 2px solid black;
+    padding: 20px;
+}
+
+.parms-table {
+    padding-bottom: 5px;
+}
+
+.parms-table .col {
+    border: 1px solid gray;
+    padding-bottom: 5px;
+}
+
+.head-line, .sub-head-line {
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.sub-head-line {
+    float: right;
+}
+.example-url {
+    float: right;
+    
+}

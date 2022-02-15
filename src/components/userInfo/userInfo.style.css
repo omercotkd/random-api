@@ -1,0 +1,14 @@
+.blur-text {
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.text-class {
+    font-size: 25px;
+}
+
