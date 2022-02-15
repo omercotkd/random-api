@@ -12,7 +12,7 @@ import os
 
 
 app = Flask(__name__, static_folder="./build", static_url_path="/")
-app.config['SECRET_KEY'] = 'ba401bf1aa2fbde423c4819854fee78507ecab96ee4f2226d04636562fb4f70f'
+app.config['SECRET_KEY'] = 'Some Secret Key'
 
 # flask_mail config
 
@@ -21,8 +21,8 @@ mail_settings = {
     "MAIL_PORT": 465,
     "MAIL_USE_TLS": False,
     "MAIL_USE_SSL": True,
-    "MAIL_USERNAME": "omerco.python@gmail.com",
-    "MAIL_PASSWORD": 'omer212159339'
+    "MAIL_USERNAME": "your@email.com",
+    "MAIL_PASSWORD": 'password'
 }
 app.config.update(mail_settings)
 mail = Mail(app)
@@ -30,6 +30,7 @@ mail = Mail(app)
 timed_url = URLSafeTimedSerializer(app.config["SECRET_KEY"])
 
 # db config
+# the uri path is to fix a problome when deploying in heroko with sqlalchemy
 uri = os.getenv("DATABASE_URL") 
 if uri and uri.startswith("postgres://"):
     uri = uri.replace("postgres://", "postgresql://", 1)
@@ -85,7 +86,7 @@ def send_reset_password(email):
 
     mail.send(msg)
 
-# checks if there r words in the "word" table in the db and if not will add them from the "words.txt" file
+# checks if there are words in the "word" table in the db and if not will add them from the "words.txt" file
 if not Words.query.get(1):
     print("adding data")
     with open("./words.txt") as f:
