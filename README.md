@@ -8,3 +8,5 @@ I recommend crating a `.flaskenv` file.
 Make sure that the database file is working properly.
 
 After, run `npm run build` in the terminal and when you start your flask app (`flask run`) it all should work as intended.
+
+<b>Project description</b>
