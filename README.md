@@ -23,6 +23,6 @@ Fully functional website, both frontend, and backend.
  <li> Email confirmation system </li>
  <li> Password hashing </li>
  <li> Password reset link </li>
- <li> Navbar changes when a user logs in/out </li>
+ <li> Frontend changes when a user logs in/out </li>
 </ul>
  
