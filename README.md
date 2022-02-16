@@ -22,6 +22,8 @@ The frontend was built using `react`, and the backend using `flask`.
  <li> Password hashing </li>
  <li> Password reset link </li>
  <li> Frontend changes when a user logs in/out </li>
+ <li> `React-router-dom` dynamic routing </li>
+ <li> Simple use of `react-bootstrap` </li>
 </ul>
 
 
