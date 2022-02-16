@@ -11,7 +11,7 @@ After, run `npm run build` in the terminal and when you start your flask app (`f
 
 <h2>Project description</h2>
 
-Fully functional website, both frontend, and backend.
+Fully functional website, both frontend using react, and backend using flask.
  
 <h4> funconaltiy:</h4>
 <ul>
