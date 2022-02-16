@@ -11,10 +11,17 @@ After, run `npm run build` in the terminal and when you start your flask app (`f
 
 <h2>Project description</h2>
 
-Fully functional website, both frontend using `react`, and backend using `flask`.
+A fully functional website with an API to get random data from such as: 
+<ul>
+ <li>random numbers</li>
+ <li>random words</li>
+</ul>
+The frontend was built using `react`, and the backend using `flask`.
+ 
  
 <h4> funconaltiy:</h4>
 <ul>
+ <li> SQL database to manage all the data </li>
  <li> API with two paths to request data with two different parameters each.</li>
  <li> A key authentication system</li>
  <li> Creating new users </li>
