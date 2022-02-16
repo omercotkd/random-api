@@ -15,7 +15,7 @@ Fully functional website, both frontend using `react`, and backend using `flask`
  
 <h4> funconaltiy:</h4>
 <ul>
- <li> API with two paths to request data with two differed parameters each.</li>
+ <li> API with two paths to request data with two different parameters each.</li>
  <li> A key authentication system</li>
  <li> Creating new users </li>
  <li> Login an existing user</li>
