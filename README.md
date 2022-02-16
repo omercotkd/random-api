@@ -21,7 +21,7 @@ The frontend was built using `react`, and the backend using `flask`.
  
 <h4> funconaltiy:</h4>
 <ul>
- <li> SQL database to manage all the data </li>
+ <li> SQL database to manage user data </li>
  <li> API with two paths to request data with two different parameters each.</li>
  <li> A key authentication system</li>
  <li> Creating new users </li>
